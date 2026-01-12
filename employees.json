@@ -1,0 +1,36 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "email": "pepijn.heeswijk@gmail.com",
+      "department": "Engineering",
+      "status": "active",
+      "role": "Software Engineer"
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "email": "pepijn.heeswijk@gmail.com",
+      "department": "Marketing",
+      "status": "active",
+      "role": "Marketing Specialist"
+    },
+    {
+      "id": "4",
+      "name": "Pepijn van Heeswijk",
+      "email": "pepijn.heeswijk@gmail.com",
+      "department": "Development",
+      "status": "active",
+      "role": "CEO"
+    },
+        {
+      "id": "5",
+      "name": "Legend of the Soos",
+      "email": "pepijn.heeswijk@gmail.com",
+      "department": "Sports",
+      "status": "active",
+      "role": "Boss"
+    }
+  ]
+}

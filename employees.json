@@ -5,7 +5,7 @@
       "name": "Alice Johnson",
       "email": "pepijn.heeswijk@gmail.com",
       "department": "Engineering",
-      "status": "active",
+      "status": "inactive",
       "role": "Software Engineer"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Bob Smith",
       "email": "pepijn.heeswijk@gmail.com",
       "department": "Marketing",
-      "status": "active",
+      "status": "inactive",
       "role": "Marketing Specialist"
     },
     {

@@ -9,17 +9,20 @@ jobs:
   upload:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Check out the repository
-        uses: actions/checkout@v2
+    permissions:
+      id-token: write
+      contents: read
 
-      - name: Set up AWS CLI
-        uses: aws-actions/configure-aws-credentials@v1
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials using OIDC
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
+          role-to-assume: arn:aws:iam::409237390775:role/Case_Study_2_role
+          aws-region: eu-central-1
 
       - name: Upload JSON file to S3
         run: |
-          aws s3 cp employee.json s3://${{ secrets.S3_BUCKET }}/employee.json
+          aws s3 cp employee.json s3://your-s3-bucket-name/employee.json

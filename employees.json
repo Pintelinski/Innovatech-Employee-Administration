@@ -29,8 +29,16 @@
       "name": "Legend of the Soos",
       "email": "pepijn.heeswijk@gmail.com",
       "department": "Sports",
-      "status": "active",
+      "status": "inactive",
       "role": "Boss"
+    },
+        {
+      "id": "6",
+      "name": "Boss Man",
+      "email": "pepijn.heeswijk@gmail.com",
+      "department": "Coaching",
+      "status": "active",
+      "role": "Leader"
     }
   ]
 }

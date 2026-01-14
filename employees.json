@@ -21,7 +21,7 @@
       "name": "Pepijn van Heeswijk",
       "email": "pepijn.heeswijk@gmail.com",
       "department": "Development",
-      "status": "inactive",
+      "status": "active",
       "role": "CEO"
     },
         {
@@ -37,7 +37,7 @@
       "name": "Boss Man",
       "email": "pepijn.heeswijk@gmail.com",
       "department": "Coaching",
-      "status": "active",
+      "status": "inactive",
       "role": "Leader"
     }
   ]

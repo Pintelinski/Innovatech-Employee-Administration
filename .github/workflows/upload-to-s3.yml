@@ -20,7 +20,7 @@ jobs:
       - name: Configure AWS credentials using OIDC
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::409237390775:role/EmployeeCreation
+          role-to-assume: arn:aws:iam::409237390775:role/service-role/EmployeeCreation
           aws-region: eu-central-1
 
       - name: Upload JSON file to S3
